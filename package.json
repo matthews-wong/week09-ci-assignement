@@ -1,0 +1,14 @@
+{
+  "name": "week09-ci-assignment",
+  "version": "1.0.0",
+  "description": "Inventory management system with unit tests and CI/CD",
+  "main": "src/inventoryManager.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
